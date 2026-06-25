@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKT月影峠 | Car Parking 2 车队</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft Yahei', sans-serif;
+        }
+
+        body {
+            background-color: #0a0a0f;
+            color: #e2e2f0;
+            line-height: 1.7;
+        }
+
+        /* 顶部横幅 */
+        header {
+            background: linear-gradient(135deg, #121526, #1e2142, #2a2d5c);
+            padding: 3.2rem 1.5rem;
+            text-align: center;
+            border-bottom: 2px solid #4a4e91;
+        }
+
+        header h1 {
+            font-size: 2.6rem;
+            color: #c5d8ff;
+            margin-bottom: 0.6rem;
+            letter-spacing: 2px;
+        }
+
+        header h1 span {
+            color: #7ea6ff;
+        }
+
+        header p {
+            font-size: 1.25rem;
+            color: #a8b6e8;
+            opacity: 0.9;
+        }
+
+        /* 通用区块 */
+        section {
+            max-width: 1100px;
+            margin: 2.8rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            color: #94b8ff;
+            border-left: 4px solid #5a7cd9;
+            padding-left: 12px;
+            margin-bottom: 1.6rem;
+        }
+
+        /* 车队图集 */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #2a2e55;
+            transition: 0.25s ease;
+            background-color: #111;
+        }
+
+        /* Logo图单独适配 */
+        .gallery img.logo {
+            object-fit: contain;
+            background-color: #000;
+            padding: 1rem;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+            border-color: #7ea6ff;
+            box-shadow: 0 4px 16px rgba(126, 166, 255, 0.25);
+        }
+
+        /* 加入我们板块 */
+        .recruit {
+            background-color: #141629;
+            padding: 2.2rem;
+            border-radius: 12px;
+            border: 1px solid #25284b;
+            text-align: center;
+        }
+
+        .recruit p {
+            font-size: 1.1rem;
+            color: #d0d4f5;
+            margin-bottom: 1.2rem;
+        }
+
+        .recruit .ig {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(45deg, #5a7cd9, #7ea6ff);
+            color: #ffffff;
+            font-size: 1.25rem;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+
+        /* 页脚 */
+        footer {
+            text-align: center;
+            padding: 1.8rem;
+            background-color: #101222;
+            color: #7a86c2;
+            margin-top: 2rem;
+            border-top: 1px solid #25284b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><span>TKT</span> 月影峠</h1>
+    <p>Car Parking 2 · 改装 | 竞速 | 漂移</p >
+</header>
+
+<section>
+    <h2>🖼️ 车队图集</h2>
+    <div class="gallery">
+        <!-- 1. 车队Logo -->
+        < img src="logo.jpg" alt="TKT月影峠 Logo" class="logo">
+        <!-- 2. 车队聚会 -->
+        < img src="meet1.jpg" alt="车队线下聚会">
+        <!-- 3. 改装车辆集合 -->
+        < img src="meet2.jpg" alt="改装车合集">
+        <!-- 4. 街头车队巡游 -->
+        < img src="meet3.jpg" alt="街头巡游实拍">
+        <!-- 5. 车库车辆展示 -->
+        < img src="garage.jpg" alt="车库车辆展示">
+    </div>
+</section>
+
+<section class="recruit">
+    <h2>📢 加入TKT月影峠</h2>
+    <p>欢迎热爱Car Parking 2、喜欢改装和竞速的玩家，一起组队交流游玩</p >
+    <div class="ig">📸 联系IG：@jinpingguo64</div>
+</section>
+
+<footer>
+    © 2026 TKT月影峠 车队 | Car Parking Multiplayer 2
+</footer>
+
+</body>
+  </html>

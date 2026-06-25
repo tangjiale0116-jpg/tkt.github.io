@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKT月影峠 | Car Parking 2 车队</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft Yahei', sans-serif;
+        }
+
+        body {
+            background-color: #0a0a0f;
+            color: #e2e2f0;
+            line-height: 1.7;
+        }
+
+        /* 顶部横幅 */
+        header {
+            background: linear-gradient(135deg, #121526, #1e2142, #2a2d5c);
+            padding: 3.2rem 1.5rem;
+            text-align: center;
+            border-bottom: 2px solid #4a4e91;
+        }
+
+        header h1 {
+            font-size: 2.6rem;
+            color: #c5d8ff;
+            margin-bottom: 0.6rem;
+            letter-spacing: 2px;
+        }
+
+        header h1 span {
+            color: #7ea6ff;
+        }
+
+        header p {
+            font-size: 1.25rem;
+            color: #a8b6e8;
+            opacity: 0.9;
+        }
+
+        /* 通用区块样式 */
+        section {
+            max-width: 1100px;
+            margin: 2.8rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            color: #94b8ff;
+            border-left: 4px solid #5a7cd9;
+            padding-left: 12px;
+            margin-bottom: 1.6rem;
+        }
+
+        /* 车队介绍 */
+        .intro {
+            background-color: #141629;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(90, 124, 217, 0.15);
+            border: 1px solid #25284b;
+        }
+
+        .intro p {
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            color: #d0d4f5;
+        }
+
+        /* 成员列表 */
+        .members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 1.3rem;
+        }
+
+        .member-card {
+            background-color: #141629;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #2a2e55;
+            transition: 0.2s;
+        }
+
+        .member-card:hover {
+            border-color: #5a7cd9;
+            box-shadow: 0 0 12px rgba(90, 124, 217, 0.2);
+        }
+
+        .member-card h3 {
+            color: #a2c3ff;
+            margin-bottom: 0.6rem;
+        }
+
+        /* 车辆画廊 */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.2rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid #2a2e55;
+            transition: 0.25s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.04);
+            border-color: #7ea6ff;
+            box-shadow: 0 3px 12px rgba(126, 166, 255, 0.25);
+        }
+
+        /* 招募说明 */
+        .rules {
+            background-color: #141629;
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid #25284b;
+        }
+
+        .rules ul {
+            padding-left: 1.8rem;
+            color: #d0d4f5;
+        }
+
+        .rules li {
+            margin: 0.6rem 0;
+        }
+
+        /* 页脚 */
+        footer {
+            text-align: center;
+            padding: 1.8rem;
+            background-color: #101222;
+            color: #7a86c2;
+            margin-top: 2rem;
+            border-top: 1px solid #25284b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><span>TKT</span> 月影峠</h1>
+    <p>Car Parking 2 · 改装 | 竞速 | 漂移 | 社群</p >
+</header>
+
+<section class="intro">
+    <h2>📌 关于我们</h2>
+    <p>欢迎来到 <strong>TKT月影峠</strong> 车队主页！我们是《Car Parking Multiplayer 2》中一群热爱车文化的玩家，以“月影为引，峠道会友”为理念，专注于车辆深度改装、性能调校、山路漂移与线上竞速。</p >
+    <p>车队成立的初衷是聚集志同道合的伙伴，分享改装经验、交流驾驶技巧、组织线上聚会，打造一个友好、活跃、有归属感的游戏社群。无论你是改装大神还是新手玩家，都能在这里找到同好，一起成长。</p >
+    <p>✅ 车队宗旨：尊重 | 互助 | 热爱 | 进取<br>✅ 日常活动：联机竞速 | 漂移打卡 | 改装交流 | 车队团建</p >
+</section>
+
+<section>
+    <h2>👥 车队成员</h2>
+    <div class="members">
+        <div class="member-card">
+            <h3>队长</h3>
+            <p>你的游戏ID</p >
+            <p>管理统筹 / 活动策划</p >
+        </div>
+        <div class="member-card">
+            <h3>副队</h3>
+            <p>队员ID-1</p >
+            <p>改装调校 / 技术指导</p >
+        </div>
+        <div class="member-card">
+            <h3>核心队员</h3>
+            <p>队员ID-2</p >
+            <p>竞速 / 赛道经验</p >
+        </div>
+        <div class="member-card">
+            <h3>核心队员</h3>
+            <p>队员ID-3</p >
+            <p>漂移 / 路线教学</p >
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>🖼️ 车队车辆画廊</h2>
+    <div class="gallery">
+        <!-- 先使用稳定的占位图，后续可替换为自己的截图 -->
+        < img src="https://picsum.photos/id/1071/450/320" alt="改装车1">
+        < img src="https://picsum.photos/id/1072/450/320" alt="改装车2">
+        < img src="https://picsum.photos/id/1073/450/320" alt="改装车3">
+        < img src="https://picsum.photos/id/1074/450/320" alt="漂移实拍">
+        < img src="https://picsum.photos/id/1075/450/320" alt="车队合影">
+        < img src="https://picsum.photos/id/1076/450/320" alt="赛道记录">
+    </div>
+</section>
+
+<section class="rules">
+    <h2>📋 入队须知</h2>
+    <ul>
+        <li>热爱《Car Parking 2》，有积极的游戏态度</li>
+        <li>遵守车队规则，不恶意冲突、不外挂、不刷屏</li>
+        <li>活跃参与车队活动，保持良好沟通</li>
+        <li>认同“友谊第一，竞技第二”的理念</li>
+        <li>入队方式：可联系队长或管理提交申请</li>
+    </ul>
+</section>
+
+<footer>
+    © 2026 TKT月影峠 车队 | Car Parking 2 专属车队
+</footer>
+
+</body>
+</html>
